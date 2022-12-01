@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Text Cap Sentences"
+            android:inputType="textCapSentences" />
+
+        <Button
+            android:id="@+id/buttonShow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHOW" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Text Email Address"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/buttonShow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHOW" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/buttonShow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALL" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone and Spinner"
+            android:inputType="phone" />
+
+        <Spinner
+            android:id="@+id/spinnerPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/phone_and_spinner" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/phoneAndSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Phone Number:" />
+
+    <Button
+        android:id="@+id/goToMainActivity2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Main Activity 2"/>
+
+</LinearLayout>
